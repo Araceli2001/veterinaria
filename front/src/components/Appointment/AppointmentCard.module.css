@@ -1,0 +1,67 @@
+/* Appointment.module.css */
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.card {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 700px;
+    margin: 12px;
+    display: flex;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05); /* Escala la tarjeta al 110% de su tamaño original cuando se pasa el mouse por encima */
+}
+
+
+.image {
+    width: 200px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.title {
+    color: #333;
+    margin-top: 0;
+    text-align: left; /* Asegura que el título esté alineado a la izquierda */
+}
+
+.content {
+    display: inline-block;
+    align-content:center;
+    margin-left: 10px;
+}
+
+.content p {
+    margin: 5px 0;
+}
+
+/* Estilos para el botón */
+/* Suponiendo que Button.module.css contiene los estilos para el botón */
+.button {
+    background-color: #429292;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    display: block; /* Hacer que el botón ocupe todo el ancho de su contenedor */
+    margin-top: 10px; /* Espacio superior entre el contenido y el botón */
+    width: 100%; /* Ajustar el ancho del botón al ancho de su contenedor */
+}
+
+.cancelled {
+    background-color: #ff5a5a;
+    color: white; /* Rojo */
+}

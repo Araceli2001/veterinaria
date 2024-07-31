@@ -1,0 +1,43 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: static;
+    background-color:rgb(160, 222, 222); /* Rosa transparente */
+    width: 100%; /* Para que ocupe todo el ancho de la pantalla */ 
+}
+
+.logoImg {
+    width: 90px; /* Tamaño del logo */
+    height: auto; /* Mantener la proporción */
+    margin: 4px 3px;
+}
+
+.menu {
+    text-align: center;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.link {
+    text-decoration: none;
+    margin: 0px 5px;
+    color: #5c4242; /* Color por defecto */
+    transition: color 0.3s; /* Transición suave para el cambio de color */
+    font-size: 18px; /* Tamaño de la fuente */
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.link:hover {
+    color: #3c7e7e; /* Cambiar a rosa al pasar el mouse */
+}
